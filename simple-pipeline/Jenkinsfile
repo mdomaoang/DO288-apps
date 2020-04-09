@@ -37,6 +37,7 @@ pipeline {
 		}
 	   }
 	}
+//
         stage('stage 3') {
             steps {
                 sh 'echo hello from stage 3!. This is the last stage...'
